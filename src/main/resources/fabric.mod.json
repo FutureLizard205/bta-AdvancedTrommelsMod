@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "advancedtrommels",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Advanced Trommels",
+  "description": "WIP",
   "authors": [
-    "Turnip Labs"
+    "FutureLizard205"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+		"homepage": "https://github.com/FutureLizard205/",
+		"sources": "https://github.com/FutureLizard205/bta-AdvancedTrommelsMod",
+		"issues": "https://github.com/FutureLizard205/bta-AdvancedTrommelsMod/issues"
   },
 
 	"icon": "icon.png",
@@ -19,20 +20,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"fl205.advancedtrommels.AdvancedTrommels"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"fl205.advancedtrommels.AdvancedTrommels"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"fl205.advancedtrommels.AdvancedTrommels"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"fl205.advancedtrommels.AdvancedTrommelsRecipes"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"advancedtrommels.mixins.json"
   ],
 
   "depends": {
