@@ -30,6 +30,9 @@
 		],
 		"recipesReady": [
 			"fl205.advancedtrommels.AdvancedTrommelsRecipes"
+		],
+		"initModels": [
+			"fl205.advancedtrommels.AdvancedTrommelsBlockModels"
 		]
 	},
   "mixins": [
